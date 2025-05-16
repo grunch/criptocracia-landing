@@ -1,1 +1,0 @@
-# Criptocracia landing page
