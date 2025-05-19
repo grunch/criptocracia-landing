@@ -25,7 +25,7 @@ interface SectionProps {
 
 const Section: React.FC<SectionProps> = ({ title, content, imageName, reverseLayout, id }) => {
   // In a real app, you might generate image paths dynamically
-  const imagePath = imageName ? `/src/assets/${imageName}` : undefined;
+  const imagePath = imageName ? `/assets/${imageName}` : undefined;
 
   return (
     <section id={id} className={`section ${reverseLayout ? 'reverse' : ''}`}>
