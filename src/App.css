@@ -145,6 +145,20 @@ li {
   color: #666;
 }
 
+.github-link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: var(--primary-color );
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.github-link:hover {
+  color: #4ba8c2;
+  text-decoration: underline;
+}
+
 /* Button styles */
 .button {
   display: inline-block;
