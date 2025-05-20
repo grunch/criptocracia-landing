@@ -1,0 +1,57 @@
+{
+  "subtitle": "An Experimental, Trustless Open-Source Electronic Voting System",
+  "whatIs": {
+    "title": "What is Criptocracia?",
+    "content": "Criptocracia is an innovative and experimental open-source electronic voting system, meticulously engineered in Rust. It stands at the forefront of secure digital democracy, designed to operate on a trustless basis. This means it aims to minimize the reliance on central authorities for the integrity of the voting process. At its core, Criptocracia employs advanced cryptographic techniques, specifically blind RSA signatures, to uphold the paramount principles of vote secrecy and voter anonymity. Furthermore, it integrates the Nostr protocol, a decentralized and censorship-resistant network, to ensure the secure and private transmission of encrypted voting data. The project, while still in its experimental phase and not yet ready for production deployment, represents a significant step towards building more resilient, transparent, and auditable e-voting solutions for the future."
+  },
+  "whatFor": {
+    "title": "What is Criptocracia for?",
+    "content": "Criptocracia is designed to address the critical and growing need for secure, transparent, and anonymous electronic voting systems. Its primary purpose is to provide a robust platform for conducting elections, particularly in environments where trust in central authorities or existing electoral systems may be compromised or limited. This is especially relevant in contexts where there are concerns about authoritarian regimes potentially manipulating electoral processes to maintain power.\n\nSpecifically, Criptocracia aims to:\n1. Enhance Electoral Integrity\n2. Protect Voter Anonymity and Secrecy\n3. Promote Transparency and Auditability\n4. Explore Modern Cryptographic Solutions\n5. Empower Voters in Trust-Limited Settings\n\nIn essence, Criptocracia is for creating a more trustworthy and secure foundation for democratic elections in the digital age, fostering greater confidence in electoral outcomes and protecting the fundamental rights of voters."
+  },
+  "whyImportant": {
+    "title": "Why is Criptocracia important?",
+    "content": "The importance of Criptocracia lies in its potential to address fundamental challenges to democratic processes in an increasingly digital world. Traditional voting systems, whether paper-based or electronic, often face issues of trust, security, and accessibility. Criptocracia offers a forward-looking approach that leverages cutting-edge technology to mitigate these concerns.\n\nIts significance can be understood through several key aspects:\n1. Strengthening Democratic Integrity\n2. Protecting Fundamental Voter Rights\n3. Addressing the Threat of Authoritarian Manipulation\n4. Pioneering Secure E-Voting Solutions\n5. Fostering Public Auditability and Trust\n6. Promoting Open Source and Collaboration\n\nWhile Criptocracia is still experimental, its importance lies in its ambitious attempt to tackle some of the most pressing issues facing electoral systems today. It represents a commitment to leveraging technology not just for convenience, but for the core values of security, privacy, and verifiability that underpin a healthy democracy."
+  },
+  "goals": {
+    "title": "Project Goals",
+    "content": "The overarching goal of Criptocracia is to harness the power of open technologies and modern cryptography to develop a voting system that is both fraud-resistant and publicly auditable. This initiative recognizes the pressing need for electoral systems that can inspire confidence and withstand manipulation, especially in environments where trust in central authorities may be limited.",
+    "keys": "Key objectives of the Criptocracia project include:",
+    "bullets": [
+      "Develop a Fraud-Resistant Voting System.",
+      "Ensure Public Auditability.",
+      "Leverage Open Technologies.",
+      "Implement Advanced Cryptographic Techniques.",
+      "Enhance Voter Privacy and Anonymity",
+      "Provide a Model for Secure E-Voting",
+      "Address Challenges in Trust-Limited Environments"
+    ],
+    "conclusion": "Ultimately, Criptocracia strives to contribute to the evolution of democratic processes by providing a technological framework that upholds the highest standards of security, transparency, and voter protection."
+  },
+  "technology": {
+    "title": "Technology behind Criptocracia",
+    "content": "Criptocracia leverages cutting-edge cryptographic techniques and decentralized communication protocols to achieve its security and privacy goals. The two key technological pillars of the system are Blind RSA Signatures and the Nostr protocol.",
+    "blindSignatures": "Blind Signatures",
+    "blindSignaturesContent": "Blind signatures are a cryptographic primitive that forms the cornerstone of Criptocracia's approach to ensuring vote secrecy and voter anonymity",
+    "nostr": "Nostr Protocol for Data Transmission and Voter Authenticity",
+    "nostrContent": "Nostr (Notes and Other Stuff Transmitted by Relays) is a decentralized protocol that enables censorship-resistant and privacy-focused communication"
+  },
+  "requirements": {
+    "title": "Fundamental Requirements",
+    "content": "Criptocracia is built upon a set of core security properties, derived from initial consultations, to ensure a trustworthy and robust electronic voting system. These fundamental requirements are critical to the project's mission:",
+    "bullets": [
+      "Vote Secrecy/Anonymity",
+      "Voter Authentication",
+      "Vote Uniqueness",
+      "Verifiability/Auditability",
+      "Nostr's Role"
+    ]
+  },
+  "footer": {
+    "copyright": "© 2025 Criptocracia. All rights reserved.",
+    "viewOnGithub": "View on GitHub"
+  },
+  "languageSelector": {
+    "en": "English",
+    "es": "Español"
+  }
+}

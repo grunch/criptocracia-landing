@@ -1,0 +1,57 @@
+{
+  "subtitle": "Un sistema de votación electrónica experimental, de código abierto y sin confianza",
+  "whatIs": {
+    "title": "¿Qué es Criptocracia?",
+    "content": "Criptocracia es un sistema de votación electrónica de código abierto innovador y experimental, meticulosamente diseñado en Rust. Está a la vanguardia de la democracia digital segura, concebido para operar sobre una base sin confianza en autoridades centrales. Esto significa que busca minimizar la dependencia de autoridades centrales para la integridad del proceso de votación. En su núcleo, Criptocracia emplea técnicas criptográficas avanzadas, específicamente firmas ciegas RSA, para defender los principios fundamentales de secreto del voto y anonimato del votante. Además, integra el protocolo Nostr, una red descentralizada y resistente a la censura, para asegurar la transmisión segura y privada de datos de votación cifrados. El proyecto, aunque aún se encuentra en fase experimental y no está listo para un despliegue en producción, representa un paso significativo hacia la construcción de soluciones de votación electrónica más resilientes, transparentes y auditables de cara al futuro."
+  },
+  "whatFor": {
+    "title": "¿Para qué sirve Criptocracia?",
+    "content": "Criptocracia está diseñado para abordar la necesidad crítica y creciente de sistemas de votación electrónica seguros, transparentes y anónimos. Su propósito principal es proporcionar una plataforma robusta para la realización de elecciones, particularmente en entornos donde la confianza en autoridades centrales o en los sistemas electorales existentes puede estar comprometida o ser limitada. Esto es especialmente relevante en contextos donde existen preocupaciones sobre regímenes autoritarios que podrían manipular los procesos electorales para mantener el poder.\n\nEspecíficamente, Criptocracia tiene como objetivos:\n1. Mejorar la integridad electoral\n2. Proteger el anonimato y el secreto del votante\n3. Promover la transparencia y la auditabilidad\n4. Explorar soluciones criptográficas modernas\n5. Empoderar a los votantes en entornos con confianza limitada\n\nEn esencia, Criptocracia busca crear una base más confiable y segura para las elecciones democráticas en la era digital, fomentando una mayor confianza en los resultados electorales y protegiendo los derechos fundamentales de los votantes."
+  },
+  "whyImportant": {
+    "title": "¿Por qué es importante Criptocracia?",
+    "content": "La importancia de Criptocracia radica en su potencial para abordar desafíos fundamentales de los procesos democráticos en un mundo cada vez más digital. Los sistemas de votación tradicionales, ya sean en papel o electrónicos, a menudo enfrentan problemas de confianza, seguridad y accesibilidad. Criptocracia ofrece un enfoque de vanguardia que aprovecha tecnología puntera para mitigar estas preocupaciones.\n\nSu relevancia puede entenderse a través de varios aspectos clave:\n1. Fortalecer la integridad democrática\n2. Proteger los derechos fundamentales del votante\n3. Abordar la amenaza de manipulación autoritaria\n4. Pionerar soluciones de votación electrónica seguras\n5. Fomentar la auditabilidad pública y la confianza\n6. Promover el código abierto y la colaboración\n\nAunque Criptocracia sigue siendo experimental, su importancia reside en su ambicioso intento de resolver algunos de los problemas más apremiantes que enfrentan los sistemas electorales hoy en día. Representa un compromiso con el uso de la tecnología no solo para la conveniencia, sino para los valores esenciales de seguridad, privacidad y verificabilidad que sustentan una democracia saludable."
+  },
+  "goals": {
+    "title": "Objetivos del proyecto",
+    "content": "El objetivo principal de Criptocracia es aprovechar el poder de las tecnologías abiertas y la criptografía moderna para desarrollar un sistema de votación resistente al fraude y públicamente auditable. Esta iniciativa reconoce la necesidad urgente de sistemas electorales capaces de inspirar confianza y resistir manipulaciones, especialmente en entornos donde la confianza en autoridades centrales puede ser limitada.",
+    "keys": "Los objetivos clave del proyecto Criptocracia incluyen:",
+    "bullets": [
+      "Desarrollar un sistema de votación resistente al fraude.",
+      "Asegurar la auditabilidad pública.",
+      "Aprovechar tecnologías abiertas.",
+      "Implementar técnicas criptográficas avanzadas.",
+      "Mejorar la privacidad y el anonimato del votante.",
+      "Proporcionar un modelo de votación electrónica segura.",
+      "Abordar desafíos en entornos con confianza limitada."
+    ],
+    "conclusion": "En última instancia, Criptocracia se esfuerza por contribuir a la evolución de los procesos democráticos proporcionando un marco tecnológico que mantenga los más altos estándares de seguridad, transparencia y protección del votante."
+  },
+  "technology": {
+    "title": "Tecnología detrás de Criptocracia",
+    "content": "Criptocracia aprovecha técnicas criptográficas de vanguardia y protocolos de comunicación descentralizados para lograr sus objetivos de seguridad y privacidad. Los dos pilares tecnológicos clave del sistema son las firmas ciegas RSA y el protocolo Nostr.",
+    "blindSignatures": "Firmas ciegas",
+    "blindSignaturesContent": "Las firmas ciegas son un primitivo criptográfico que constituye la piedra angular del enfoque de Criptocracia para garantizar el secreto del voto y el anonimato del votante.",
+    "nostr": "Protocolo Nostr para la transmisión de datos y la autenticidad del votante",
+    "nostrContent": "Nostr (Notes and Other Stuff Transmitted by Relays) es un protocolo descentralizado que permite una comunicación resistente a la censura y enfocada en la privacidad."
+  },
+  "requirements": {
+    "title": "Requisitos fundamentales",
+    "content": "Criptocracia se basa en un conjunto de propiedades de seguridad esenciales, derivadas de consultas iniciales, para asegurar un sistema de votación electrónica confiable y robusto. Estos requisitos fundamentales son críticos para la misión del proyecto:",
+    "bullets": [
+      "Secreto/Anonimato del voto",
+      "Autenticación del votante",
+      "Unicidad del voto",
+      "Verificabilidad/Auditabilidad",
+      "Rol de Nostr"
+    ]
+  },
+  "footer": {
+    "copyright": "© 2025 Criptocracia. Todos los derechos reservados.",
+    "viewOnGithub": "Ver en GitHub"
+  },
+  "languageSelector": {
+    "en": "Inglés",
+    "es": "Español"
+  }
+}
