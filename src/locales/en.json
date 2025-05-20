@@ -6,16 +6,25 @@
   },
   "whatFor": {
     "title": "What is Criptocracia for?",
-    "content": "Criptocracia is designed to address the critical and growing need for secure, transparent, and anonymous electronic voting systems. Its primary purpose is to provide a robust platform for conducting elections, particularly in environments where trust in central authorities or existing electoral systems may be compromised or limited. This is especially relevant in contexts where there are concerns about authoritarian regimes potentially manipulating electoral processes to maintain power.\n\nSpecifically, Criptocracia aims to:\n1. Enhance Electoral Integrity\n2. Protect Voter Anonymity and Secrecy\n3. Promote Transparency and Auditability\n4. Explore Modern Cryptographic Solutions\n5. Empower Voters in Trust-Limited Settings\n\nIn essence, Criptocracia is for creating a more trustworthy and secure foundation for democratic elections in the digital age, fostering greater confidence in electoral outcomes and protecting the fundamental rights of voters."
+    "content": "Criptocracia is designed to address the critical and growing need for secure, transparent, and anonymous electronic voting systems. Its primary purpose is to provide a robust platform for conducting elections, particularly in environments where trust in central authorities or existing electoral systems may be compromised or limited. This is especially relevant in contexts where there are concerns about authoritarian regimes potentially manipulating electoral processes to maintain power.",
+    "bullets_title": "Specifically, Criptocracia aims to:",
+    "bullets": [
+      "Enhance Electoral Integrity.",
+      "Protect Voter Anonymity and Secrecy.",
+      "Promote Transparency and Auditability.",
+      "Explore Modern Cryptographic Solutions.",
+      "Empower Voters in Trust-Limited Settings."
+    ],
+    "conclusion": "In essence, Criptocracia is for creating a more trustworthy and secure foundation for democratic elections in the digital age, fostering greater confidence in electoral outcomes and protecting the fundamental rights of voters."
   },
   "whyImportant": {
     "title": "Why is Criptocracia important?",
-    "content": "The importance of Criptocracia lies in its potential to address fundamental challenges to democratic processes in an increasingly digital world. Traditional voting systems, whether paper-based or electronic, often face issues of trust, security, and accessibility. Criptocracia offers a forward-looking approach that leverages cutting-edge technology to mitigate these concerns.\n\nIts significance can be understood through several key aspects:\n1. Strengthening Democratic Integrity\n2. Protecting Fundamental Voter Rights\n3. Addressing the Threat of Authoritarian Manipulation\n4. Pioneering Secure E-Voting Solutions\n5. Fostering Public Auditability and Trust\n6. Promoting Open Source and Collaboration\n\nWhile Criptocracia is still experimental, its importance lies in its ambitious attempt to tackle some of the most pressing issues facing electoral systems today. It represents a commitment to leveraging technology not just for convenience, but for the core values of security, privacy, and verifiability that underpin a healthy democracy."
+    "content": "The importance of Criptocracia lies in its potential to address fundamental challenges to democratic processes in an increasingly digital world. Traditional voting systems, whether paper-based or electronic, often face issues of trust, security, and accessibility. Criptocracia offers a forward-looking approach that leverages cutting-edge technology to mitigate these concerns."
   },
   "goals": {
     "title": "Project Goals",
     "content": "The overarching goal of Criptocracia is to harness the power of open technologies and modern cryptography to develop a voting system that is both fraud-resistant and publicly auditable. This initiative recognizes the pressing need for electoral systems that can inspire confidence and withstand manipulation, especially in environments where trust in central authorities may be limited.",
-    "keys": "Key objectives of the Criptocracia project include:",
+    "bullets_title": "Key objectives of the Criptocracia project include:",
     "bullets": [
       "Develop a Fraud-Resistant Voting System.",
       "Ensure Public Auditability.",

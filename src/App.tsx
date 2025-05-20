@@ -69,6 +69,23 @@ function App() {
           content={t('whatFor.content')}
           imageName={whatForImage}
           reverseLayout
+          customContent={
+              <>
+                <p>{t('whatFor.content')}</p>
+                <p>{t('whatFor.bullets_title')}</p>
+                {(() => {
+                  const bulletPoints = t('whatFor.bullets', { returnObjects: true }) as string[];
+                  return (
+                    <ol className="goals-list">
+                      {bulletPoints.map((bullet, index) => (
+                        <li key={index}>{bullet}</li>
+                      ))}
+                    </ol>
+                  );
+                })()}
+                <p>{t('whatFor.conclusion')}</p>
+              </>
+          }
         />
         <Section
           id="why-important"
@@ -79,18 +96,25 @@ function App() {
         <Section
           id="goals"
           title={t('goals.title')}
+          content={t('goals.content')}
           imageName={projectGoalsImage}
           reverseLayout
           customContent={
-            <>
-              <p>{t('goals.content')}</p>
-              <ol className="goal-list">
-                {t('goals.bullets', { returnObjects: true }).map((bullet, index) => (
-                  <li key={index}>{bullet}</li>
-                ))}
-              </ol>
-              <p>{t('goals.conclusion')}</p>
-            </>
+              <>
+                <p>{t('goals.content')}</p>
+                <h3>{t('goals.bullets_title')}</h3>
+                {(() => {
+                  const bulletPoints = t('goals.bullets', { returnObjects: true }) as string[];
+                  return (
+                    <ol className="goals-list">
+                      {bulletPoints.map((bullet, index) => (
+                        <li key={index}>{bullet}</li>
+                      ))}
+                    </ol>
+                  );
+                })()}
+                <p>{t('goals.conclusion')}</p>
+              </>
           }
         />
         <Section
@@ -111,16 +135,22 @@ function App() {
         <Section
           id="requirements"
           title={t('requirements.title')}
+          content={t('requirements.content')}
           imageName={requirementsImage}
           reverseLayout
           customContent={
             <>
               <p>{t('requirements.content')}</p>
-              <ul className="requirements-list">
-                {t('requirements.bullets', { returnObjects: true }).map((bullet, index) => (
-                  <li key={index}>{bullet}</li>
-                ))}
-              </ul>
+              {(() => {
+                const bulletPoints = t('requirements.bullets', { returnObjects: true }) as string[];
+                return (
+                  <ul className="requirements-list">
+                    {bulletPoints.map((bullet, index) => (
+                      <li key={index}>{bullet}</li>
+                    ))}
+                  </ul>
+                );
+              })()}
             </>
           }
         />
